@@ -95,7 +95,7 @@ html,body{
 }
 
 .hero2{
-    background: url('img/bb.jpg');
+    background: white;
     background-size: cover;
     background-position: center top;
     color: black;
