@@ -1,3 +1,8 @@
+:root{
+    --theme-b: #f7f9ff; 
+    --theme-t: #ffc107; 
+}
+
 html,body{
     height: 100%;
     width:100%;
@@ -36,7 +41,7 @@ html,body{
 
 .hero > #hero-text > h1{
     font-family: 'Comfortaa', cursive;
-    color: white;
+    color:  var(--theme-t);
     margin-top: -70px;
 
 }
@@ -54,7 +59,7 @@ html,body{
 
 .nav-bar #logo
 {
-    color: white;
+    color: var(--theme-t);
     font-family: 'Comfortaa', cursive;
     font-size: 24px;
     padding:20px 0 0 25px;
@@ -90,15 +95,15 @@ html,body{
 }
 
 #text2{
-    color: white;
+    color: var(--theme-t);
     margin-bottom: 20px;
 }
 
 .hero2{
-    background: white;
+    background: var(--theme-b);
     background-size: cover;
     background-position: center top;
-    color: black;
+    color: var(--theme-t);
     margin-left: 0;
     margin-right: 0;
     height: 50%;
@@ -125,4 +130,26 @@ html,body{
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+.theme-btn1 {
+    color: #ffc107;
+    background-color: #212529;
+    border-color: #ffc107;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.theme-btn2 {
+    color: #ffc107;
+    background-color: #f7f9ff;
+    border-color: #ffc107;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
 }

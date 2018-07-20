@@ -44,9 +44,12 @@
                 <h1 id="text1">Hi, I am Vuk!</h1>
                 <h3 id="text2"> C | C++ | C# </h3>
                 <a class="btn btn-warning" href="https://github.com/vukisic" role="button">Learn More</a>
+                <div class="btns">
+                    <button class="btn theme-btn1" onclick="dark()">DarkTheme</button>
+                    <button class="btn theme-btn2" onclick="light()">LightTheme</button>
+                </div>
             </div>
         </div>
-
 
         <!--Row-->
         <div class="hero2">
@@ -76,6 +79,14 @@
         </div>
 
         <!-- Optional JavaScript -->
+        <script>
+            function dark() {
+                document.documentElement.style.setProperty('--theme-b', '#212529');
+            }
+            function light() {
+                document.documentElement.style.setProperty('--theme-b', '#f7f9ff');
+            }
+        </script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
