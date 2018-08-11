@@ -1,0 +1,221 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding:0;
+}
+
+
+@media screen and (max-width: 800px) {
+    article{
+        font-size: 2vh;
+        margin-left: 1vmax;
+    }
+    
+    li{
+        margin-left: -5vmax;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    article{
+        margin-left: 5vmax;
+    }
+    
+    li{
+        margin-left: 5vmax;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #tribute-link{
+    padding:1vh 1w 1vh 1vw;
+    width:100vw;
+    height: 10vh;
+}
+    
+    #ctext{
+        margin-top:6em;
+        font-size:2vh;
+}
+     #btn1
+    {
+        width: 21vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #ctext{
+        margin-top:2.5em;
+        font-size:4vh;
+}
+    #tribute-link{
+    padding:1vh 1w 1vh 1vw;
+    width:4vw;
+    height: 4vh;
+}
+    #btn1
+    {
+        width: 18vw;
+        height: 30vh;
+    }
+    
+}
+
+
+
+#main{
+  background: url('/img/paper.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#title{
+  margin-top:0px;
+  padding:100px 0px 0px;
+  font-family: 'Permanent Marker', cursive;
+  font-size:6vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:black;
+}
+
+#image{
+  display: block;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 20%;
+  height: auto;
+  border-radius:90px;
+}
+
+#img-caption{
+  margin-top:25px;
+  font-family: 'Comfortaa', cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:black;
+}
+
+#next{
+  margin-top: 3vw;
+  background: url('/img/paper.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#about-info{
+  padding: 7vh 3vw 4vw 6vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 0.01em;
+  text-align: right;
+}
+
+#hand-text{
+  margin-top:5vh;
+  margin-left:4vw;
+  padding:0vh 2vw 0vh 1vw;
+  font-family: 'Permanent Marker',cursive;
+  font-size:2.65vw;
+  word-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+p{
+  margin-bottom:1vw;
+  padding-bottom: 6vw;
+  padding-left: -1vmin;
+  padding-top:2vw;
+  padding-right: 1vw;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  text-align: left;
+  font-size:3vmin;
+  justify-content: center;
+}
+
+h3{
+  margin-left:10px;
+}
+
+ul{
+  margin-left:3.5vmax;
+}
+
+li{
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-size:2.5vmin;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+article {
+  position: relative; 
+}
+
+.fill-viewport {
+  width: 100%;
+  min-height: 90vmin; 
+}
+
+#ctext{
+  font-weight: bold;
+  font-family: 'Permanent Marker',cursive;
+  text-align: center;
+}
+
+#end{
+  margin-top: 3vw;
+  background: url('/img/paper.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#fgrid{
+  padding: 5vh 4vw 2vw 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+#tribute-link,#btn1{
+  padding:1vh 1vw 1vh 1w;
+}
+
+#cgrid{
+  margin-top:1vmax;
+  padding: 1vmax 1vmax 1vmax 1vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center; 
+}
+
+
