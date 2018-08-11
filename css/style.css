@@ -6,7 +6,7 @@ html,body{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     article{
         font-size: 2vh;
         margin-left: 1vmax;
@@ -17,7 +17,7 @@ html,body{
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     article{
         margin-left: 5vmax;
     }
@@ -27,7 +27,7 @@ html,body{
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     #tribute-link{
     padding:1vh 1w 1vh 1vw;
     width:100vw;
@@ -45,7 +45,7 @@ html,body{
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     #ctext{
         margin-top:2.5em;
         font-size:4vh;
