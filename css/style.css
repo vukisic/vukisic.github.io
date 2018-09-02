@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -10,17 +13,16 @@ body {
 }
 
 nav ul {
-  position: fixed;
   text-align: right;
+  position: fixed;
   width: 100%;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 55px;
+  margin: 20px;
   margin-bottom: 15px;
   margin-top: 25px;
-  margin-right: 20px;
 }
 
 nav ul li i {
@@ -31,9 +33,23 @@ nav ul li i:hover {
   color: black;
 }
 
+
 #welcome-section {
   height: 100vh;
 }
+
+#welcome-section h1{
+	font-family: 'VT323', monospace;
+	color:black;
+	font-size:36px;
+}
+
+#welcome-section p{
+	font-family: 'VT323', monospace;
+	color:black;
+	font-size:24px;
+}
+
 
 .intro {
   top: 0;
@@ -43,7 +59,7 @@ nav ul li i:hover {
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 80vh;
-  width: 100%;
+  width:auto;
 }
 
 .intro p {
@@ -77,7 +93,7 @@ nav ul li i:hover {
   border: 2px solid lightblue;
   height: 200px;
   width: 280px;
-  margin: 40px 100px;
+  margin: 40px 50px;
 }
 
 .project-pic {
@@ -122,11 +138,13 @@ nav ul li i:hover {
 }
 
 #box1 p {
+  font-family: 'VT323', monospace;
   font-size: 2em;
   color: white;
 }
 
 #box1 h2 {
+  font-family: 'VT323', monospace;
   color: white;
 }
 
@@ -146,21 +164,28 @@ nav ul li i:hover {
 
 #box2 .lang ul li {
   color: white;
+  font-family: 'VT323', monospace;
 }
 
 #box2 h3 {
+  font-family: 'VT323', monospace;
   color: white;
   margin-left: -3em;
 }
 
 #box2 .plang ul li {
   color: white;
+  font-family: 'VT323', monospace;
 }
 
 #box2 h2 {
   color: white;
+  font-family: 'VT323', monospace;
 }
 
+.work h2,.contact-header h2{
+	font-family: 'VT323', monospace;
+}
 .contact-info {
   display: inline-block;
   width: 20vw;
@@ -169,6 +194,7 @@ nav ul li i:hover {
 
 #hand-text{
 	font-size:2em;
+	font-family: 'VT323', monospace;
 }
 
 @media only screen and (max-width: 500px) {
@@ -179,5 +205,26 @@ nav ul li i:hover {
   #hand-text{
 	font-size:1em;
   }
+  
+  .project {
+  height: 16em;
+  width: 20em;
+  margin: 20px 20px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 200px;
+}
+
+#welcome-section p{
+	font-size:12px;
+	color:white;
+}
+
+#welcome-section h1{
+	color:white;
+	font-size:24px;
+}
   
 }
