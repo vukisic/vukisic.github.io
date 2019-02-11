@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400i');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body{
+    background: url(imgs/background3.jpg);
+    background-size: cover;
+    color:silver;
+    margin : 0px;
+}
+
+h4{
+    color:#bbcfea;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:whitesmoke;
+    font-size: 1em;
+}
+
+li{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+a{
+    color:#f49e23;
+}
+
+footer > center > h3{
+    color:royalblue;
+}
+
+main{
+    padding-top: 2em;
+}
+
+.main-header{
+    position: absolute;
+}
+
+
+.skill-item{
+    font-family: 'Kalam', cursive;
+    background: transparent;
+    transition: background 500ms;
+}
+
+.skill-item:hover{
+    background: rgb(146, 99, 223);
+    opacity: .7;
+}
+
+.bolded-link
+{
+    font-weight: bold;
+}
+
+.itallic-link
+{
+    font-style: italic;
+}
+
+.links{
+    justify-content: center;
+    padding-bottom:2em;
+}
+
+.link-item{
+    padding:0.3em;
+}
+
+.profile{
+    padding:2em;
+}
+
+.main-nav{
+    background: transparent;
+}
+
+#skills,#experiance,#contact{
+    padding:1em;
+    color: whitesmoke;
+}
+
+.intro{
+    font-size:2em;
+}
+
+#intro-quote{
+    font-style: italic;
+    font-family: 'Cabin', sans-serif;
+}
