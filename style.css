@@ -1,0 +1,82 @@
+.jumbotron{
+    margin-top:10px;
+}
+
+.intro-text{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.quote,.author {
+    font-style: italic;
+}
+
+.author{
+    font-size:14px;
+    color: gainsboro;
+}
+
+.quote{
+    color: gold;
+    font-size: 18px;
+}
+
+.special{
+    color: #00bc8c;
+    font-weight: 700;
+}
+
+.inline{
+    display: inline;
+}
+.config{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.list-group-item{
+    margin-top:3px;
+}
+
+.list-group{
+    margin-left: 2px;
+}
+
+.lgbox{
+    display: grid !important;
+}
+
+.alert-success{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-container-small {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+  }
+
+.icl{
+    margin-left: 10px
+}
+
+.quote-div{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}

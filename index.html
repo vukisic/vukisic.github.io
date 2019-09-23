@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="libs/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="libs/jquery-3.4.1.min.js"></script>
+        <script src="libs/bootstrap/js/bootstrap.min.js" ></script>
+        <script>
+            var i = 0;
+            var txt = 'Hello!';
+            var speed = 160;
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("title").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+        </script>
+        <link href="libs/fa/css/all.css" rel="stylesheet">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Vuk Isic</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+              </div>
+            </div>
+          </nav>
+
+          <div class="container">
+              <div class="container jumbotron">
+                  <div class="col-md-12">
+                        <h2 class="text-center" id="title"><script>typeWriter()</script></h2>
+                        <br>
+                        <div class="media">
+                            <img src="libs/imgs/profile.png" class="align-self-start mr-3" alt="...">
+                            <div class="media-body">
+                                    <h5><span class="special">Name:</span> &nbsp;Vuk Isic</h5>
+                                    <h5><span class="special">Location:</span> &nbsp;Novi Sad, Serbia</h5>
+                                <p class="intro-text">  I am a 21 years old student from Serbia.
+                                     I study Applied Software Engineering on Faculty of Technical Science in Novi Sad.
+                                     I’m interested in software engineering especially in .NET Framework.
+                                     In the past few years, I have worked on many independent projects alongside my formal education.
+                                     My goal is to put my theoretical knowledge into practice and challenge myself to solve some real-life problems.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center quote-div">
+                            <p class="quote">"A bug is never just a mistake. It represents something bigger. An error of thinking that makes you who you are."</p>
+                            <span class="author">-Eliot-Mr.Robot</span>
+                        </div>
+                  </div>
+              </div>
+              <div class="container jumbotron">
+                  <div class="col-md-12 col-sm-12 col-lg-12">
+                      <h2 class="text-center">Current Configuration<i class="fas fa-cogs fa-sm icl"></i></h2>
+                      <div class="container">
+                          <div class="config col-md-12 ">
+                            <div class="list-group text-center">
+                                <p class="list-group-item list-group-item-action alert alert-danger">OS :</p>
+                                <p class="list-group-item list-group-item-action alert alert-danger">IDE :</p>
+                                <p class="list-group-item list-group-item-action alert alert-danger">Backend :</p>
+                                <p class="list-group-item list-group-item-action alert alert-danger">Frontend :</p>
+                                <p class="list-group-item list-group-item-action alert alert-danger">Prefer :</p>
+                            </div>
+                            <div class="list-group text-center">
+                                <p class="list-group-item list-group-item-action alert alert-info">Windows 10</p>
+                                <p class="list-group-item list-group-item-action alert alert-info">VS 2019, VS Code</p>
+                                <p class="list-group-item list-group-item-action alert alert-info">.Net Framework</p>
+                                <p class="list-group-item list-group-item-action alert alert-info">Angular 6</p>
+                                <p class="list-group-item list-group-item-action alert alert-info">.Net(C#, NUnit, Moq),&nbsp; Angular(TS),&nbsp; JavaScript,&nbsp; Python</p>
+                            </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="container jumbotron">
+                  <div class="col-md-12">
+                      <h2 class="text-center">Skills<i class="fas fa-star fa-sm icl"></i></h2>
+                      <div class="grid-container">
+                            <p class="list-group-item list-group-item-action alert alert-success">C</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">C ++</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">C #</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">JavaScript</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">TypeScript</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Python</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">.Net Framework</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">ASP.NET</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">.Net Core</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">ElectronJS</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">MongoDB</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">SQL</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">WebApi</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Angular</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Azure (Basics)</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Entity Framework</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">HTML/CSS</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">WCF</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">WPF</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">XML</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Matlab</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">LINQ</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">NUnit</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Moq</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="container jumbotron">
+                  <div class="col-md-12">
+                      <h2 class="text-center">Toolbox<i class="fas fa-toolbox fa-sm icl"></i></h2>
+                      <div class="grid-container">
+                            <p class="list-group-item list-group-item-action alert alert-success">Visual Studio</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">VS Code</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Npm</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">NuGet</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Git/GitHub</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Azure DevOps</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Office</p>
+                            <p class="list-group-item list-group-item-action alert alert-success">Postman</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="container jumbotron">
+                    <div class="col-md-12">
+                        <h2 class="text-center">Contact<i class="fas fa-id-card fa-sm icl"></i></h2>
+                        <div class="grid-container-small text-center">
+                            <a href="https://github.com/vukisic"><i class="fab fa-github fa-5x"></i></a>
+                            <a href="https://www.facebook.com/visicev"><i class="fab fa-facebook fa-5x"></i></a>
+                            <a href="mailto:visicev@gmail.com"><i class="fa fa-at fa-5x"></i></a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+    </body>
+</html>
