@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cabin:400i");
+:root {
+  --background-left: #99c1de;
+  --background-right: rgb(196, 184, 184);
+  --icons: #001233;
+  --skill-text: #143642;
+  --profile-img-border: 2px solid #99c1de;
+}
+
+body {
+  background: rgb(204, 204, 204);
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  margin-top: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="landscape"] {
+  width: 42cm;
+  height: 29.7cm;
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="landscape"] {
+  width: 21cm;
+  height: 14.8cm;
+}
+
+.left-col {
+  height: 29.7cm;
+  background: var(--background-left);
+}
+
+.right-col {
+  background: var(--background-right);
+}
+
+.special-row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.name {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.skill-text {
+  color: var(--skill-text);
+  padding: 0 !important;
+  margin: 0.5px !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.icons {
+  color: var(--icons);
+}
+
+.profile {
+  width: 190px;
+  border: var(--profile-img-border);
+}
+
+ul {
+  padding: 0 !important;
+}
+
+ul li {
+  list-style-type: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+hr.white-line {
+  border-top: 3px solid white;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.year {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.etitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  margin: 0 !important;
+}
+
+.esubTitle {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.about-text {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.job-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: oblique;
+}
+
+#intro-quote {
+  font-size: 16px;
+  font-style: italic;
+  font-family: "Cabin", sans-serif;
+  display: inline-block;
+}
+
+.section-title {
+  font-weight: bold;
+}
