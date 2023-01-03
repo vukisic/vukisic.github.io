@@ -19,7 +19,7 @@ page {
   margin-bottom: 0.5cm;
   margin-top: 0.5cm;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  border: 5px solid grey;
+  border: 5px solid white !important;
 }
 page[size="A4"] {
   width: 21cm;
